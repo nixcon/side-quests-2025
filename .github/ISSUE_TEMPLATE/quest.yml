@@ -1,0 +1,15 @@
+name: Quest
+description: Create a new quest
+body:
+  - type: textarea
+    attributes:
+      label: Objective
+      description: What will this quest be about?
+      placeholder: Breaking pots around Zürich to collect rubies
+    validations:
+      required: true
+  - type: input
+    id: logs
+    attributes:
+      label: How to join
+      description: Instructions or link to join the quest
